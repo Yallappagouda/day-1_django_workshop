@@ -72,14 +72,18 @@ Working in a structured development environment
 1️⃣ Clone Repository
 git clone https://github.com/Yallappagouda/day-1_django_workshop.git
 cd day-1_django_workshop
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate
+
 3️⃣ Install Requirements
 pip install django
+
 4️⃣ Run Migrations
 python manage.py makemigrations
 python manage.py migrate
+
 5️⃣ Start Server
 python manage.py runserver
 
